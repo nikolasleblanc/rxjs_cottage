@@ -45,6 +45,9 @@ function App({ children, session, login, logout }) {
         <NavigatorItem isVisible={ isLoggedIn } mr>
           <Link to="/">Counter</Link>
         </NavigatorItem>
+        <NavigatorItem mr>
+          <Link to="/branch">Branch</Link>
+        </NavigatorItem>
         <NavigatorItem isVisible={ isLoggedIn }>
           <Link to="/about">About Us</Link>
         </NavigatorItem>
